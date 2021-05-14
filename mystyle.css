@@ -1,0 +1,148 @@
+.body1{
+  background-image:url('book3.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+.body2{
+    background-image:url('login.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+  }
+
+.body3{
+    background-image:url('main.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.heading{
+    color:#00111a;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 100px;
+    text-shadow: 4px 4px gray ;
+    
+}
+.heading2{
+    color:rgba(216, 77, 170, 0.534);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    float: left;
+    padding-left: 100px;
+    text-shadow: 2px 2px gray ;
+}
+.sub{
+    text-align: center;
+    font-size: 50px;
+    color:#00111a ;
+    
+    
+}
+
+.button{
+    border: 2px solid black;
+ border-radius: 10px;
+ background-color:rgb(150, 6, 6) ;
+ padding: 15px 25px;
+ margin-left: 680px;
+ font-size: 20px;
+ text-shadow: 1px 1px gray;
+ color: blanchedalmond;
+
+}
+.button:hover{
+     box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3), 0 5px 21px 0 rgba(0,0,0,0.18);
+}
+.logo{
+    width: 200px;
+    height: 80px;
+    float: left;
+}
+.container{
+    width:80%;
+    margin: 0 auto;
+    
+}
+header{
+    background:white;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+    
+    
+}
+nav{
+  float:right;  
+}
+.clearfix{
+    clear:both;
+}
+nav ul{
+    margin:0;
+    padding:0;
+    display:flex;
+}
+nav ul li
+{
+    list-style: none;
+    font-size: 20px;
+    padding-top: 10px;
+}
+nav ul li a
+{
+    display:block;
+    margin:10px 0;
+    padding:10px 20px;
+    text-decoration: none;
+    color: #262626;    
+}
+nav ul li a:hover
+{
+    background: #069370;
+    color:#fff;
+    transition: 0.5s;
+}
+
+.container2{
+    width:80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.button2{
+    border: 2px solid black;
+ border-radius: 10px;
+ background-color:rgb(150, 6, 6) ;
+ padding: 10px 20px;
+ padding-left: 20px;
+ font-size: 15px;
+ text-shadow: 1px 1px gray;
+ color: blanchedalmond;
+ 
+}
+.button2:hover{
+    box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3), 0 5px 21px 0 rgba(0,0,0,0.18);
+}
+.summary{
+    font-size: 20px;
+    padding-left: 30px;
+}
+table{
+    background-color:rgba(243, 209, 222, 0.863);
+}
+.checked {
+    color: orange;
+  }
+.fa-star-half-full {
+    color: orange;
+}
+
+
+
